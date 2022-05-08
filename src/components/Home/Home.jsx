@@ -7,7 +7,9 @@ function Home() {
     <main>
     <div className="home">
       <div className="home__container">
-        <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="e-shop logo" className="home__image" />
+        <div className="home__imageContainer">
+          <img src="https://www.x-cart.com/wp-content/uploads/2019/01/ecommerce-768x278.jpg" alt="e-shop logo" className="home__image" />
+        </div>
 
         <div className="home__row">
           <Product 
